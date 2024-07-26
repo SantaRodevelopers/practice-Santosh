@@ -8,11 +8,11 @@ function Buttons() {
   );
 }
 
-function ProductItems(p) {
+function ProductItems({singleProduct}) {
   //console.log(p);
   return (
     <div style={{ padding: "20px", border: "2px solid white ", margin: "5px" }}>
-      <p>p</p>
+      <p>{singleProduct}</p>
       <Buttons />
     </div>
   );
